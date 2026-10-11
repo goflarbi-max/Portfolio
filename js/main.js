@@ -1,6 +1,16 @@
 // PROJECT DATA: edit this array to add or update portfolio case studies.
 const projects = [
   {
+    title: 'IoT-Based SmartBin for Smart Waste Management',
+    meta: 'Ghana Communication Technology University · Jan 2025 — Sep 2026',
+    summary: 'Solar-powered smart waste system with touchless operation, real-time fill monitoring and GPS-embedded SMS collection alerts.',
+    tags: ['Arduino Uno', 'C++', 'GSM SIM800L', 'GPS NEO-6M', 'Ultrasonic Sensors'],
+    metrics: ['Full integration passed', '5 chapters approved', 'Successfully defended'],
+    challenge: 'Develop an intelligent waste-management system capable of hygienic touchless use, reliable fill-level monitoring and location-aware collection alerts without depending on mains power.',
+    action: 'Programmed an Arduino Uno to integrate HC-SR04 ultrasonic sensors, a servo-controlled lid, LED indicators, GSM SIM800L and GPS NEO-6M modules. Designed the circuit around a lithium battery, solar panel and solar charge controller, then documented the research and implementation across five chapters.',
+    result: 'Successfully implemented, tested and defended before an academic panel at GCTU. Every subsystem passed full integration testing, and all five chapters of the project documentation were approved.'
+  },
+  {
     title: 'AutoBusiness',
     summary: 'Live dealership analytics dashboard tracking GHS 1.09B+ in revenue, margin and 3,906 unit sales on a custom domain.',
     tags: ['Python', 'Cloudflare Workers', 'Analytics'],
@@ -116,7 +126,7 @@ const safeUrl = value => value && !value.startsWith('[') ? value : '';
 projectGrid.innerHTML = projects.map((project, index) => `
   <article class="card project-card reveal visible">
     <span class="project-number">CASE ${String(index + 1).padStart(2, '0')}</span>
-    <h3>${project.title}</h3><p>${project.summary}</p>
+    <h3>${project.title}</h3>${project.meta ? `<p class="project-meta">${project.meta}</p>` : ''}<p>${project.summary}</p>
     <div class="project-metrics">${(project.metrics || []).map(metric => `<strong>${metric}</strong>`).join('')}</div>
     <div class="tags">${project.tags.map(tag => `<span>${tag}</span>`).join('')}</div>
     <div class="project-actions"><button class="text-button case-open" type="button" data-project="${index}">Read case study →</button>${safeUrl(project.link) ? `<a href="${project.link}" target="_blank" rel="noopener noreferrer">Visit project <span class="sr-only">(opens in a new tab)</span></a>` : ''}</div>
