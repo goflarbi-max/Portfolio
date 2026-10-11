@@ -5,7 +5,7 @@ const projects = [
     summary: 'Live dealership analytics dashboard tracking GHS 1.09B+ in revenue, margin and 3,906 unit sales on a custom domain.',
     tags: ['Python', 'Cloudflare Workers', 'Analytics'],
     metrics: ['GHS 1.09B+ revenue', '3,906 units', 'Zero loading flash'],
-    link: 'https://autobusiness.goflarbi.com',
+    link: 'https://automobile.goflarbi.com',
     challenge: 'Deliver GHS-denominated reporting on a custom domain without the default Streamlit border, footer or loading flash.',
     action: 'Built the Python data pipeline, proxied the application through Cloudflare Workers and embedded a purpose-built dark interface.',
     result: 'Delivered an edge-to-edge, zero-flash dashboard with live filters that works across desktop and mobile devices.'
@@ -27,6 +27,16 @@ const projects = [
     challenge: 'Staff needed practical guidance to identify scams and social-engineering techniques in everyday communication.',
     action: 'Delivered clear, scenario-based guidance on warning signs, safe verification and escalation practices.',
     result: 'Trained 70+ staff across 10 sessions, giving teams practical steps for recognising and escalating suspicious activity.'
+  },
+  {
+    title: 'Personal Portfolio & Web Deployment',
+    summary: 'Designed and deployed a responsive professional portfolio with accessible themes, custom-domain support and a working contact workflow.',
+    tags: ['Figma', 'HTML', 'CSS', 'JavaScript', 'Vercel', 'GitHub Pages'],
+    metrics: ['Responsive frontend', 'Two hosting platforms', 'Custom domain ready'],
+    link: 'https://godfred-larbi-portfolio.vercel.app',
+    challenge: 'Present a broad technical background clearly while delivering a fast, accessible website without a framework or build process.',
+    action: 'Planned the interface in Figma, developed the responsive frontend with HTML, CSS and JavaScript, connected Formspree, and configured deployments through GitHub Pages and Vercel.',
+    result: 'Delivered a mobile-ready portfolio with light and dark modes, accessible interactions, downloadable CV and independently hosted deployment paths.'
   }
 ];
 
