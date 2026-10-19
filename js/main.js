@@ -6,6 +6,7 @@ const projects = [
     summary: 'Solar-powered smart waste system with touchless operation, real-time fill monitoring and GPS-embedded SMS collection alerts.',
     tags: ['Arduino Uno', 'C++', 'GSM SIM800L', 'GPS NEO-6M', 'Ultrasonic Sensors'],
     metrics: ['Full integration passed', '5 chapters approved', 'Successfully defended'],
+    link: 'https://youtube.com/shorts/EKrtR8SCWDQ?si=mlE6Cjgx9FP8G06_',
     challenge: 'Develop an intelligent waste-management system capable of hygienic touchless use, reliable fill-level monitoring and location-aware collection alerts without depending on mains power.',
     action: 'Programmed an Arduino Uno to integrate HC-SR04 ultrasonic sensors, a servo-controlled lid, LED indicators, GSM SIM800L and GPS NEO-6M modules. Designed the circuit around a lithium battery, solar panel and solar charge controller, then documented the research and implementation across five chapters.',
     result: 'Successfully implemented, tested and defended before an academic panel at GCTU. Every subsystem passed full integration testing, and all five chapters of the project documentation were approved.'
