@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'IoT-Based SmartBin for Smart Waste Management',
-    meta: 'Ghana Communication Technology University · Jan 2025 — Sep 2026',
+    meta: 'Final Year Project · Ghana Communication Technology University · Jan 2025 — Sep 2026',
     summary: 'Solar-powered smart waste system with touchless operation, real-time fill monitoring and GPS-embedded SMS collection alerts.',
     tags: ['Arduino Uno', 'C++', 'GSM SIM800L', 'GPS NEO-6M', 'Ultrasonic Sensors'],
     metrics: ['Full integration passed', '5 chapters approved', 'Successfully defended'],
@@ -139,7 +139,7 @@ projectGrid.addEventListener('click', event => {
   if (!trigger) return;
   modalTrigger = trigger;
   const project = projects[Number(trigger.dataset.project)];
-  modalContent.innerHTML = `<p class="section-kicker">Case study</p><h2 id="modal-title">${project.title}</h2><p class="lead">${project.summary}</p>${['challenge','action','result'].map(key => `<div class="case-block"><h3>${key}</h3><p>${project[key]}</p></div>`).join('')}`;
+  modalContent.innerHTML = `<p class="section-kicker">Case study</p><h2 id="modal-title">${project.title}</h2>${project.meta ? `<p class="project-meta">${project.meta}</p>` : ''}<p class="lead">${project.summary}</p>${['challenge','action','result'].map(key => `<div class="case-block"><h3>${key}</h3><p>${project[key]}</p></div>`).join('')}`;
   modal.showModal(); document.body.classList.add('modal-open');
 });
 const closeModal = () => { modal.close(); document.body.classList.remove('modal-open'); modalTrigger?.focus(); };
