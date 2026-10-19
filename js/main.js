@@ -15,7 +15,7 @@ const projects = [
     summary: 'Live dealership analytics dashboard tracking GHS 1.09B+ in revenue, margin and 3,906 unit sales on a custom domain.',
     tags: ['Python', 'Cloudflare Workers', 'Analytics'],
     metrics: ['GHS 1.09B+ revenue', '3,906 units', 'Zero loading flash'],
-    link: 'https://automobile.goflarbi.com',
+    link: 'https://autobusiness.goflarbi.com',
     challenge: 'Deliver GHS-denominated reporting on a custom domain without the default Streamlit border, footer or loading flash.',
     action: 'Built the Python data pipeline, proxied the application through Cloudflare Workers and embedded a purpose-built dark interface.',
     result: 'Delivered an edge-to-edge, zero-flash dashboard with live filters that works across desktop and mobile devices.'
