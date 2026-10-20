@@ -10,7 +10,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 2998 >>
+<< /Length 3009 >>
 stream
 0.043 0.165 0.357 rg
 BT
@@ -70,10 +70,10 @@ BT
 (- Manage certificates for 8 workshop PCs and maintain 3 PIWIS diagnostic testers.) Tj
 /F1 8 Tf
 1 0 0 1 66 509 Tm
-(- Administer 25 PPN users and 20+ Active Directory groups with one-day access turnaround.) Tj
+(- Administer 25 PPN users and 20+ Active Directory groups with role-appropriate access.) Tj
 /F1 8 Tf
 1 0 0 1 66 497 Tm
-(- Strengthened security policies across 100+ accounts within 2 weeks.) Tj
+(- Strengthened security policies across 20+ accounts to improve access governance.) Tj
 /F1 11 Tf
 1 0 0 1 54 469 Tm
 (FINAL YEAR PROJECT) Tj
@@ -123,9 +123,9 @@ xref
 0000000064 00000 n 
 0000000121 00000 n 
 0000000247 00000 n 
-0000003297 00000 n 
+0000003308 00000 n 
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-3367
+3378
 %%EOF
